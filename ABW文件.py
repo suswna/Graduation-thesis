@@ -7,7 +7,7 @@ import shap
 import matplotlib.pyplot as plt  # Import Matplotlib
 import os
 
-model_path = "~/Desktop/2024年未完成/3、博士毕业论文/gbdt_ABW_model.pkl"
+model_path = "./data/gbdt_ABW_model.pkl"
 model_path = os.path.expanduser(model_path)  # 展开用户目录
 gbdt_model = joblib.load(model_path)
 
