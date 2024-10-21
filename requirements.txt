@@ -1,4 +1,4 @@
-# Compatible with Python 3.8 - 3.11
+Compatible with Python 3.8 - 3.11
 altair==5.2.0
 attrs==23.1.0
 blinker==1.7.0
